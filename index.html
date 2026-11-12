@@ -321,12 +321,15 @@ svg{display:block}
   .main{padding:0 12px 90px}
   .top{margin:0 -12px 12px;padding:0 12px;height:56px}
   .top h1 small,.sel-wrap span,.pbtn .t{display:none}
-  .sel{max-width:118px}
+  .sel{max-width:112px}
+  .top h1{font-size:17px}
   .rightcol{grid-template-columns:minmax(0,1fr)}
   .widgets{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px}
   .w{min-height:0;padding:11px}
   .big strong{font-size:28px}.big .u{font-size:15px}
   .crow{flex-wrap:wrap}
+  .crow:first-child{flex-wrap:nowrap}
+  .ctitle{font-size:13px}
   .chead .seg.modes{flex:1}
   .crow .tools{margin-left:0;width:100%}
   .crow .tools button{flex:1}
@@ -338,7 +341,7 @@ svg{display:block}
   .abtn .t{display:none}
   .abtn{flex:1;justify-content:center;padding:0}
   .asep{display:none}
-  .hint{white-space:normal;font-size:11px;top:8px;border-radius:10px;text-align:center}
+  .hint{white-space:normal;font-size:11px;top:auto;bottom:8px;border-radius:10px;text-align:center;width:max-content;max-width:calc(100% - 16px);padding:6px 10px;background:rgba(255,255,255,.88);line-height:1.35}
   .overlay text{font-size:22px}
   .drawer{inset:auto 0 0 0;width:auto;max-width:none;height:86vh;border-radius:18px 18px 0 0;transform:translateY(100%)}
   .drawer.open{transform:none}
